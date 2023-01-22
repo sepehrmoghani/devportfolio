@@ -166,11 +166,8 @@
                         <h3>Project Overview</h3>
                         <p>
                             This code uses the Python requests library to send HTTP requests to the website "https://www.autotrader.com.au/for-sale" in order to scrape used car listings. The BeautifulSoup library is used to parse the HTML content of the website, and the csv library is used to write the scraped data to a CSV file.
-
 				The script initializes several lists to store the scraped data, such as the "year", "model", "badge", "km", "adType", "suburb", and "price" of each car. It then uses a for loop to iterate through pages 1 to 6000 of the website. For each iteration, it makes a request to the website using the requests.get() function and assigns the response to the variable "r".
-
 				The script then uses BeautifulSoup to parse the HTML content of the website, and it uses the find() and find_all() methods to locate the specific HTML elements containing the data for each car. The script then extracts the text of each element and appends it to the appropriate list.
-
 				Finally, the script writes the scraped data to a CSV file named 'used_cars.csv' using the csv library. The fieldnames of the CSV file are defined in the fieldnames variable and the data is written to the file using the DictWriter() function. The script then prints the length of the model list, and the scraping and writing process is completed.
                         </p>
                         <a href="#scraper">View Project</a>
