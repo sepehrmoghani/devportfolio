@@ -347,26 +347,26 @@ footer {
 
 #about {
     padding: 75px 15px;
-    border-bottom: 1px solid #dcd9d9
+    border-bottom: 1px solid #333
 }
 
 #about h2 {
-    color: #374054
+    color: #fff
 }
 
 #about p {
-    color: #74808a;
+    color: #fff;
     margin: 0
 }
 
 #experience {
     padding: 50px 15px;
     text-align: center;
-    border-bottom: 1px solid #dcd9d9
+    border-bottom: 1px solid #fff
 }
 
 #experience h2 {
-    color: #374054
+    color: #fff
 }
 
 #experience-timeline {
@@ -401,8 +401,8 @@ footer {
 
 .vtimeline-content {
     margin-left: 350px;
-    background: #fff;
-    border: 1px solid #e6e6e6;
+    background: #333;
+    border: 1px solid #fff;
     padding: 15px;
     border-radius: 3px;
     text-align: left
@@ -466,7 +466,7 @@ footer {
 
 #education {
     padding: 50px 15px 20px 15px;
-    border-bottom: 1px solid #dcd9d9;
+    border-bottom: 1px solid #333;
     text-align: center
 }
 
@@ -479,7 +479,7 @@ footer {
     max-width: 700px;
     margin: 0 auto 30px auto;
     padding: 15px;
-    border: 1px solid #dcd9d9;
+    border: 1px solid #333;
     text-align: left
 }
 
@@ -515,7 +515,7 @@ footer {
 
 #projects {
     padding: 50px 15px;
-    border-bottom: 1px solid #dcd9d9;
+    border-bottom: 1px solid #333;
     text-align: center
 }
 
