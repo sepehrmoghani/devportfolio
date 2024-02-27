@@ -82,19 +82,19 @@ header li {
 
 header a {
     display: block;
-    color: #333;
+    color: #fff;
     padding: 10px
 }
 
 header a:hover {
-    color: #333;
+    color: #fff;
     text-decoration: none;
     background: #333;
     border-radius: 4px
 }
 
 header a:focus {
-    color: #333;
+    color: #fff;
     text-decoration: none
 }
 
@@ -347,7 +347,7 @@ footer {
 
 #about {
     padding: 75px 15px;
-    border-bottom: 1px solid #333
+    border-bottom: 1px solid #fff
 }
 
 #about h2 {
@@ -411,7 +411,7 @@ footer {
 .vtimeline-content h3 {
     font-size: 1.5em;
     font-weight: 300;
-    color: #374054;
+    color: #fff;
     display: inline-block;
     margin: 0
 }
@@ -419,12 +419,12 @@ footer {
 .vtimeline-content h4 {
     font-size: 1.2em;
     font-weight: 300;
-    color: #7e8890;
+    color: #fff;
     margin: 0 0 15px 0
 }
 
 .vtimeline-content p {
-    color: #74808a;
+    color: #fff;
     font-size: 0.9em;
     margin: 0
 }
@@ -461,7 +461,7 @@ footer {
     left: 0;
     top: 10px;
     font-weight: 300;
-    color: #374054
+    color: #fff
 }
 
 #education {
@@ -471,7 +471,7 @@ footer {
 }
 
 #education h2 {
-    color: #374054;
+    color: #fff;
     margin-bottom: 50px
 }
 
@@ -487,16 +487,16 @@ footer {
     font-weight: 500;
     float: left;
     margin: 0;
-    color: #374054
+    color: #fff
 }
 
 .education-block span {
-    color: #74808a;
+    color: #fff;
     float: right
 }
 
 .education-block h4 {
-    color: #74808a;
+    color: #fff;
     clear: both;
     font-weight: 500;
     margin: 0 0 15px 0
@@ -505,7 +505,7 @@ footer {
 .education-block p,
 .education-block ul {
     margin: 0;
-    color: #74808a;
+    color: #fff;
     font-size: 0.9em
 }
 
@@ -520,7 +520,7 @@ footer {
 }
 
 #projects h2 {
-    color: #374054;
+    color: #fff;
     margin-bottom: 50px
 }
 
@@ -548,12 +548,12 @@ footer {
 .project-info h3 {
     font-size: 1.5em;
     font-weight: 300;
-    color: #374054;
+    color: #fff;
     margin: 0 0 15px 0
 }
 
 .project-info p {
-    color: #74808a;
+    color: #fff;
     margin: 0 0 15px 0;
     font-size: 0.9em
 }
@@ -590,8 +590,8 @@ footer {
     display: inline-block;
     margin: 7px;
     padding: 5px 10px;
-    color: #374054;
-    background: #e4e4ea;
+    color: #fff;
+    background: #fff;
     list-style: none;
     cursor: default;
     font-size: 1.2em
@@ -622,7 +622,7 @@ footer {
     border-radius: 4px;
     border: none;
     margin-bottom: 10px;
-    background: #818181;
+    background: #fff;
     color: #fff;
     transition: .5s ease all
 }
@@ -652,7 +652,7 @@ footer {
 #contact-form input:focus,
 #contact-form textarea:focus {
     outline: none;
-    background: #818181
+    background: #fff
 }
 
 #contact-form textarea {
