@@ -13,13 +13,13 @@ body.active {
     background: #333;
     padding: 10px;
     margin-bottom: 10px;
-    border: 1px solid #333
+    border: 1px solid #fff
 }
 
 .no-js #experience-timeline>div h3 {
     font-size: 1.5em;
     font-weight: 300;
-    color: #333;
+    color: #fff;
     display: inline-block;
     margin: 0
 }
@@ -27,12 +27,12 @@ body.active {
 .no-js #experience-timeline>div h4 {
     font-size: 1.2em;
     font-weight: 300;
-    color: #333;
+    color: #fff;
     margin: 0 0 15px 0
 }
 
 .no-js #experience-timeline>div p {
-    color: #333;
+    color: #fff;
     font-size: 0.9em;
     margin: 0
 }
@@ -117,7 +117,7 @@ header.sticky {
     position: fixed;
     right: 15px;
     top: 10px;
-    color: #333;
+    color: #fff;
     font-size: 1.5em;
     z-index: 20;
     padding: 0 7px;
@@ -134,7 +134,7 @@ header.sticky {
     padding-right: 15px;
     padding-top: 10px;
     cursor: pointer;
-    color: #333
+    color: #fff
 }
 
 #mobile-menu-close span {
@@ -200,7 +200,7 @@ footer {
 }
 
 .social a:hover {
-    color: #333
+    color: #fff
 }
 
 .btn-rounded-white {
@@ -213,7 +213,7 @@ footer {
 }
 
 .btn-rounded-white:hover {
-    color: #333;
+    color: #fff;
     background: #333;
     text-decoration: none
 }
@@ -247,7 +247,7 @@ footer {
 }
 
 .background-alt {
-    background: #f2f2f5
+    background: #333
 }
 
 #lead {
