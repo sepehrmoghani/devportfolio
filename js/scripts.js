@@ -1,15 +1,3 @@
-/*!
-    Title: Dev Portfolio Template
-    Version: 1.2.2
-    Last Change: 03/25/2020
-    Author: Ryan Fitzgerald
-    Repo: https://github.com/RyanFitzgerald/devportfolio-template
-    Issues: https://github.com/RyanFitzgerald/devportfolio-template/issues
-
-    Description: This file contains all the scripts associated with the single-page
-    portfolio website.
-*/
-
 (function($) {
 
     // Show current year
@@ -95,6 +83,32 @@
         $(this).fadeOut(300, function() {
             $('#more-projects').fadeIn(300);
         });
+    });
+
+    // New code for the overlay and name animation
+    document.addEventListener("DOMContentLoaded", function() {
+        // Select the overlay and name elements
+        var overlay = document.querySelector(".intro-overlay");
+        var name = document.querySelector(".intro-name");
+
+        // Listen for scroll events
+        window.addEventListener("scroll", function() {
+            // Calculate how much the user has scrolled
+            var scrollPosition = window.scrollY;
+
+            // Calculate the opacity of the overlay based on scroll position
+            var opacity = 1 - (scrollPosition / window.innerHeight);
+
+            // Apply the opacity to the overlay
+            overlay.style.opacity = opacity;
+
+            // Move the name element up as the user scrolls
+            name.style.transform = "translateY(-" + (scrollPosition / 3) + "px)";
+        });
+
+        // Initially hide the overlay and name
+        overlay.style.opacity = 1;
+        name.style.transform = "translateY(0)";
     });
 
 })(jQuery);
