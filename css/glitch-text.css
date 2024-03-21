@@ -11,19 +11,19 @@
     margin: 0;
     background: #000000;
     color: #ffffff;
-    font-size: 3em;
     font-family: "IBM Plex Mono", monospace;
-    letter-spacing: -7px;
 }
 
 .glitch-text div {
+    font-size: 3em;
+    letter-spacing: -7px;
     animation: glitch 1s linear infinite;
 }
 
 .glitch-text p {
-    font-size: 0.3em;
+    font-size: 1.1em;
     text-align: center;
-    letter-spacing: -3px;
+    letter-spacing: -2px;
     display: block;
     /* Added to ensure paragraph moves to the next line */
 }
